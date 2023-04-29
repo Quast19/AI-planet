@@ -21,6 +21,9 @@ class Submission(models.Model):
     text_file = models.FileField(upload_to =username_path,blank=True, null=True)
     link = models.CharField(max_length=256,blank=True, null=True)
     image_file = models.ImageField(upload_to=username_path, blank=True, null=True)
+    Datatype123 = models.IntegerField(null= True)
+    
+    
     
     def __str__(self):
         return str(self.owner.username) + " " +str(self.hackathon.title) + "-" +str(self.id)

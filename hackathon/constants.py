@@ -1,1 +1,1 @@
-SUBMISSION_TYPE = (("IMAGE", "IMAGE"),("FILE", "FILE"),("LINK", "LINK"))
+SUBMISSION_TYPE = (("IMAGE", "IMAGE"),("FILE", "FILE"),("LINK", "LINK"),("Datatype123","Datatype123"))
